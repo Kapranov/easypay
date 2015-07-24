@@ -9,7 +9,7 @@ Synopsys
 ==========================
 
 
-###### Oleg G.Kapranov 24 July 2015.
+###### Oleg G.Kapranov 24 July 2015. Node.js, Sails.js, Ember.js, Redis.
 
 ==========================
 
