@@ -1,6 +1,6 @@
 ## Easypay - The payment app for Travelonline Inc.
 
-+ [Travelonline Inc.](http://travelonline.com.ua)
++ [Travel agency in Kiev - Travelonline Inc.](http://travelonline.com.ua)
 + [Live Demo - Frontend](http://212.26.132.49:4200)
 + [Live Demo - Backend](http://212.26.132.49:1337/api/v1/payments)
 
