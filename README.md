@@ -15,9 +15,9 @@ Synopsys
 ==========================
 
 ### Core components
-+ Node  - Server Side
-+ Sails - Web Server Framework
-+ Ember - Client Side MVC Framework
++ Node  - Server Side (sane stack)
++ Sails - Web Server Framework (sane stack)
++ Ember - Client Side MVC Framework (ember-cli)
 + Redis - save sessions and model data
   (connect-redis, sails-redis, socket.io-redis)
 
