@@ -18,7 +18,8 @@ Synopsys
 + Node  - Server Side
 + Sails - Web Server Framework
 + Ember - Client Side MVC Framework
-+ Redis - Database
++ Redis - save sessions and model data
+  (connect-redis, sails-redis, socket.io-redis)
 
 ### Additional Tools Available
 + Bootstrap - front end framework
