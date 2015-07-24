@@ -21,100 +21,11 @@
 
 module.exports.connections = {
 
-  /***************************************************************************
-  *                                                                          *
-  * Local disk storage for DEVELOPMENT ONLY                                  *
-  *                                                                          *
-  * Installed by default.                                                    *
-  *                                                                          *
-  ***************************************************************************/
-  disk: {
-    adapter: 'sails-disk'
-  },
-
-  /***************************************************************************
-  *                                                                          *
-  * MySQL is the world's most popular relational database.                   *
-  * http://en.wikipedia.org/wiki/MySQL                                       *
-  *                                                                          *
-  * Run: npm install sails-mysql                                             *
-  *                                                                          *
-  ***************************************************************************/
-
-  //docker host uses db, otherwise use localhost or the IP of your db
-  //credentials for docker are defined in the fig.yml
-  //otherwise dependent on your setup
-  mysql: {
-    adapter: 'sails-mysql',
-    host: 'localhost',
-    user: 'root',
-    password: 'password',
-    database: 'sane'
-  },
-
-  /***************************************************************************
-  *                                                                          *
-  * MongoDB is the leading NoSQL database.                                   *
-  * http://en.wikipedia.org/wiki/MongoDB                                     *
-  *                                                                          *
-  * Run: npm install sails-mongo                                             *
-  *                                                                          *
-  ***************************************************************************/
-
-  //docker host uses db, otherwise use localhost or the IP of your db
-  //credentials for docker are defined in the fig.yml
-  //otherwise dependent on your setup
-  mongo: {
-    adapter: 'sails-mongo',
-    host: 'localhost',
-    port: 27017,
-    // user: 'username',
-    // password: 'password',
-    // database: 'your_mongo_db_name_here'
-  },
-
-  /***************************************************************************
-  *                                                                          *
-  * PostgreSQL is another officially supported relational database.          *
-  * http://en.wikipedia.org/wiki/PostgreSQL                                  *
-  *                                                                          *
-  * Run: npm install sails-postgresql                                        *
-  *                                                                          *
-  ***************************************************************************/
-
-  //docker host uses db, otherwise use localhost or the IP of your db
-  //credentials for docker are defined in the fig.yml
-  //otherwise dependent on your setup
-  postgresql: {
-    adapter: 'sails-postgresql',
-    host: 'localhost',
-    user: 'postgres',
-    password: '',
-    database: 'postgres'
-  },
-
-  /***************************************************************************
-  *                                                                          *
-  * Redis is an open source, BSD licensed, advanced key-value cache and      *
-  * store.                                                                   *
-  *                                                                          *
-  * http://en.wikipedia.org/wiki/Redis                                       *
-  *                                                                          *
-  * Run: npm install sails-redis                                             *
-  *                                                                          *
-  ***************************************************************************/
-
   redis: {
     adapter: 'sails-redis',
     port: 6379,
-    host: 'localhost',
-    database: null
+    host: '127.0.0.1',
+    database: 1
   }
-
-  /***************************************************************************
-  *                                                                          *
-  * More adapters: https://github.com/balderdashy/sails                      *
-  *                                                                          *
-  ***************************************************************************/
 
 };
