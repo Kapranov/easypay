@@ -5,6 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'client',
     podModulePrefix: 'client/pods',
     environment: environment,
+    hostUrl: 'http://127.0.0.1:1337',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
@@ -20,12 +21,22 @@ module.exports = function(environment) {
     }
   };
 
+  ENV.contentSecurityPolicy =  {
+          'default-src': "'self' https://maps.googleapis.com",
+          'font-src': "*",
+          'connect-src': "'self' https://maps.googleapis.com",
+          'img-src': "*",
+          'style-src': "* 'unsafe-inline'",
+          'frame-src': "*",
+          'script-src': "'self' 'unsafe-eval' *.googleapis.com *.gstatic.com"
+  };
+
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
-    // ENV.APP.LOG_ACTIVE_GENERATION = true;
+    ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
-    // ENV.APP.LOG_VIEW_LOOKUPS = true;
+    ENV.APP.LOG_VIEW_LOOKUPS = true;
   }
 
   if (environment === 'test') {
