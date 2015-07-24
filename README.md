@@ -22,7 +22,8 @@ Synopsys
   (connect-redis, sails-redis, socket.io-redis)
 
 ### Additional Tools Available
-+ Bootstrap - front end framework
++ Bootstrap - front end framework (Twitter-Bootstrap 3.3.5)
++ Font-Awesome - fonts and icons
 + SASS - CSS pre-processor
 
 Installation:
