@@ -1,4 +1,6 @@
 ## Easypay - The payment app for Travelonline Inc.
+### Sane Stack, Node.js, Sails.js, Ember.js, Redis.
+
 
 + [Travel agency in Kiev](http://travelonline.com.ua)
 + [Live Demo - Frontend](http://212.26.132.49:4200)
@@ -9,7 +11,7 @@ Synopsys
 ==========================
 
 
-###### Oleg G.Kapranov 24 July 2015. Node.js, Sails.js, Ember.js, Redis.
+###### Oleg G.Kapranov 24 July 2015.
 
 ==========================
 
