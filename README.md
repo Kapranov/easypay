@@ -14,7 +14,29 @@ Synopsys
 ==========================
 
 
+How is it made?
+==========================
 
+### Core components
++ Node  - Server Side
++ Sails - Web Server Framework
++ Ember - Client Side MVC Framework
++ Redis - Database
+
+### Additional Tools Available
++ Bootstrap - front end framework
++ SASS - CSS pre-processor
+
+Installation:
+==========================
+1. Install and run the SANE stack - https://github.com/artificialio/sane
+2. Install and run Redis
+3. Install ImageMagick and GraphicsMagick like shown: https://github.com/aheckmann/gm
+4. Clone repo
+5. bower install on client and npm install  on both the client and the
+   server directories
+6. 'sane up' to start both the client and the server
+7. Browse app at localhost:4200
 
 ###### Oleg G.Kapranov 24 July 2015.
 
