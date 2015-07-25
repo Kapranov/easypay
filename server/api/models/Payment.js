@@ -8,25 +8,63 @@
 module.exports = {
 
   attributes: {
-    contract : { type: 'string' },
 
-    firstName : { type: 'string' },
+    contract : {
+      type: 'STRING',   // type will get validated by the ORM
+      required: true,
+      unique: true
+    },
 
-    lastName : { type: 'string' },
+    firstName : {
+      type: 'STRING',   // type will get validated by the ORM
+      required: true
+    },
 
-    sum : { type: 'integer' },
+    lastName : {
+      type: 'STRING',   // type will get validated by the ORM
+      required: true
+    },
 
-    commissionOne : { type: 'float' },
+    sum : {
+      type: 'INTEGER',  // type will get validated by the ORM
+      required: true,
+      defaultsTo: 0
+    },
 
-    commissionTwo : { type: 'integer' },
+    commissionOne : {
+      type: 'FLOAT',    // type will get validated by the ORM
+      required: true,
+      defaultsTo: 0
+    },
 
-    commission : { type: 'float' },
+    commissionTwo : {
+      type: 'INTEGER',  // type will get validated by the ORM
+      required: true,
+      defaultsTo: 0
+    },
 
-    totalAmount : { type: 'integer' },
+    commission : {
+      type: 'FLOAT',    // type will get validated by the ORM
+      required: true,
+      defaultsTo: 0
+    },
 
-    email : { type: 'string' },
+    totalAmount : {
+      type: 'INTEGER',  // type will get validated by the ORM
+      required: true,
+      defaultsTo: 0
+    },
 
-    telephone : { type: 'string' }
+    email : {
+      type: 'STRING',   // type will get validated by the ORM
+      required: true
+    },
+
+    telephone : {
+      type: 'STRING',   // type will get validated by the ORM
+      required: true
+    }
   }
+
 };
 
