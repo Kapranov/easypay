@@ -55,9 +55,9 @@ module.exports.session = {
   host: '127.0.0.1',
   port: 6379,
   ttl: 30,
-  db: 2,
+  db: 0,
   pass: null,
-  prefix: 'sess:',
+  prefix: 'sess:'
 
   /***************************************************************************
   *                                                                          *
