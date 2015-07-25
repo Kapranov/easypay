@@ -35,7 +35,7 @@ Installation:
 6. 'sane up' to start both the client and the server
 7. Browse app at localhost:4200
 
-###### Oleg G.Kapranov 24 July 2015.
+###### Oleg G.Kapranov 25 July 2015.
 
 ==========================
 

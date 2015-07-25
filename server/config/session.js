@@ -57,7 +57,7 @@ module.exports.session = {
   ttl: 30,
   db: 2,
   pass: null,
-  prefix: 'sess:',
+  prefix: 'sess:'
 
   /***************************************************************************
   *                                                                          *
