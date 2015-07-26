@@ -31,6 +31,14 @@ module.exports = function(environment) {
           'script-src': "'self' 'unsafe-eval' *.googleapis.com *.gstatic.com"
   };
 
+  ENV['simple-auth'] = {
+      authorizer: 'simple-auth-authorizer:oauth2-bearer'
+  };
+  ENV['simple-auth-oauth2'] = {
+      refreshAccessTokens: true,
+      serverTokenEndpoint: '/api/v1/auths/login'
+  };
+
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
     ENV.APP.LOG_ACTIVE_GENERATION = true;

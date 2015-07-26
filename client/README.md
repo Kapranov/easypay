@@ -20,6 +20,12 @@ You will need the following things properly installed on your computer.
 * `npm install`
 * `bower install`
 
+package.json
+    "ember-cli-mocha": "^0.6.0",
+
+bower.json
+    "ember-mocha": "~0.6.2",
+    "qunit": "~1.17.1"
 ## Running / Development
 
 * `ember server`
